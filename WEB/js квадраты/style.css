@@ -1,0 +1,10 @@
+#root {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.block {
+    background-color: lightblue;
+    border: 2px solid blue;
+}
