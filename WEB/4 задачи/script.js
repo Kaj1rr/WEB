@@ -1,6 +1,6 @@
-//1 задание. Проверка чисел
+//1 Проверка чисел
 
-// const number = 8;
+// const number = 342;
 
 //     if (number > 0) {
 //         console.log("положительное");
@@ -9,7 +9,6 @@
 //     } else {
 //         console.log("ноль");
 //     }
-
 //     if (number % 2 === 0) {
 //         console.log("чётное");
 //     } else {
@@ -17,13 +16,12 @@
 //     }
 
 
-
-//2 задание. Работа с массивом
+//2 Работа с массивом
 // const numbers = [3, 4, 66, 154, 43, 155];
 
 // let sum = 0;
 // let max = numbers[0];
-// let bigger_Than_10 = [];
+// let bigger_than_10 = [];
 
 // for (let i = 0; i < numbers.length; i++) {
 //     sum = sum + numbers[i];
@@ -32,21 +30,19 @@
 //         max = numbers[i];
 //     }
 //     if (numbers[i] > 10) {
-//         //push перебирает и возвращает элементы массива
-//         bigger_Than_10.push(numbers[i]);
+//         bigger_than_10.push(numbers[i]);
 //     }
 // }
 
 // console.log("cумма:", sum);
 // console.log("cамое большое число:", max);
-// console.log("больше 10:", bigger_Than_10);
+// console.log("больше 10:", bigger_thanq_10);
 
-//3 задание.Список учеников
+//3 Список учеников
 // const students = [
 //     { name:"Марта", grade: 7 },
 //     { name:"Женя", grade: 4 },
-//     { name:"Дима", grade: 9 },
-//     { name:"Олег", grade: 5 }
+//     { name:"Дима", grade: 9 }
 // ];
 
 // const minGrade = 7;
@@ -63,22 +59,20 @@
 // const average = sum / students.length;
 // console.log("средняя оценка:", average);
 
-//4 задание. Угадай число
-// function guessNumber() {
-//     //+ 1 нужен для диапазона , потому что в JS math random * 10 (0 - 9)  
+//4 Угадай число
+// function guessNumber() {  
 //     const randomNumber = Math.floor(Math.random() * 10) + 1;
-//     const userNumber = Number(prompt("число от 1 до 10:"));
+//     const userNumber = Number(prompt("1 до 10:"));
 
-//     if (userNumber === randomNumber) {
-//         console.log("вы угадали!");
+//     if (userNumber == randomNumber) {
+//         console.log("угадал!");
 //     } else if (userNumber < randomNumber) {
-//         console.log("число больше");
+//         console.log("больше");
 //         console.log("загадано:", randomNumber);
 //     } else {
-//         console.log("число меньше");
+//         console.log("меньше");
 //         console.log("загадано:", randomNumber);
 //     }
 // }
 // guessNumber();
 
-//чтобы убрать комменты нужно ctrl + k потом ctrl + u ну или обратно как и поставил
