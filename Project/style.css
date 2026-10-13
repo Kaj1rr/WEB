@@ -26,11 +26,6 @@
     border: 3px solid black;
 }
 
-.discription__date{
-    border: 1px solid black;
-    display: flex
-}
-
-.discription__text{
-    border: 1px solid black;
+.discription {
+    display: flex;
 }
