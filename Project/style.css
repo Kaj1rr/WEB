@@ -29,3 +29,7 @@
 .discription {
     display: flex;
 }
+
+.sidebar_icon{
+    display:inline-flex;
+}
